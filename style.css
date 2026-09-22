@@ -359,7 +359,6 @@ button {
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Efek saat kursor diarahkan ke card gambar */
 .gallery-item:hover {
     border-color: rgba(220, 38, 38, 0.4);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
@@ -377,7 +376,6 @@ button {
     transition: transform 0.4s ease, filter 0.4s ease;
 }
 
-/* Animasi zoom halus pada gambar saat di-hover */
 .gallery-item:hover img {
     transform: scale(1.06);
     filter: brightness(1.08);
@@ -571,11 +569,23 @@ button {
 }
 
 @media (max-width: 1024px) {
-    
+    .hero {
+        padding-top: 100px;
+        padding-bottom: 60px;
+    }
+
     .hero-container {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
         text-align: center;
-        gap: 40px;
+        gap: 32px;
+    }
+
+    .hero-image {
+        order: -1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .hero-content {
@@ -585,7 +595,8 @@ button {
     }
 
     .hero-laptop-img {
-        max-width: 450px;
+        max-width: 420px;
+        width: 100%;
     }
 
     .hero-buttons {
@@ -685,6 +696,16 @@ button {
 
 
 @media (max-width: 480px) {
+    .hero {
+        padding-top: 90px;
+        padding-bottom: 30px;
+        min-height: auto;
+    }
+
+    .hero-laptop-img {
+        max-width: 320px;
+    }
+
     .section-title {
         font-size: 1.6rem;
     }
