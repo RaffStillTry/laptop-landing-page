@@ -172,7 +172,6 @@ button {
     color: var(--color-text);
 }
 
-
 .btn-nav-cta {
     background: linear-gradient(135deg, var(--color-accent-1), var(--color-accent-2)) !important;
     color: #fff !important;
@@ -623,13 +622,11 @@ button {
         grid-row: span 1;
     }
 
-    
     .cta-pricing {
         grid-template-columns: 1fr;
         max-width: 380px;
     }
 
-    
     .footer-grid {
         grid-template-columns: 1fr 1fr;
     }
@@ -639,14 +636,12 @@ button {
     }
 }
 
-
 @media (max-width: 768px) {
     
     .hamburger {
         display: flex;
     }
 
-    
     .nav-links {
         position: fixed;
         top: 0;
@@ -661,7 +656,6 @@ button {
         transition: right 0.3s;
     }
 
-    
     .nav-links.active {
         right: 0;
     }
@@ -675,12 +669,10 @@ button {
         font-size: 2.5rem;
     }
 
-    
     .features-grid {
         grid-template-columns: 1fr;
     }
 
-    
     .gallery-grid {
         grid-template-columns: 1fr;
     }
@@ -693,7 +685,6 @@ button {
         text-align: center;
     }
 }
-
 
 @media (max-width: 480px) {
     .hero {
@@ -727,7 +718,6 @@ button {
         width: 100%;
         text-align: center;
     }
-
     
     .specs-grid {
         grid-template-columns: 1fr;

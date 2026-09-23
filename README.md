@@ -11,7 +11,7 @@ Landing page produk untuk laptop gaming **MOG Pro X1** dari brand *Monarchy of G
 
 ## ✨ Fitur
 
-- **Hero Section** — perkenalan produk dengan tampilan visual utama
+- **Hero Section** - perkenalan produk dengan tampilan visual utama
 - **Fitur Unggulan** - 6 poin keunggulan produk (layar OLED 4K, prosesor cepat, desain tipis, baterai tahan lama, keamanan biometrik, WiFi 7 & 5G)
 - **Spesifikasi Lengkap** - tabel detail prosesor, memori, penyimpanan, layar, grafis, baterai, bobot, dan OS
 - **Galeri Produk** - kumpulan gambar dari berbagai sudut
