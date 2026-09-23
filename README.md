@@ -8,9 +8,6 @@ Landing page produk untuk laptop gaming **MOG Pro X1** dari brand *Monarchy of G
 
 ![Preview](./Images/Preview1.png)
 ![Preview](./Images/Preview2.png)
-![Preview](./Images/Preview3.png)
-![Preview](./Images/Preview4.png)
-![Preview](./Images/Preview5.png)
 
 ## ✨ Fitur
 
